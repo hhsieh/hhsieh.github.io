@@ -5,7 +5,7 @@ title: Unlimited networks
 
 Suppose you have 100 nodes; each of them has its own x and y spatial coordinates. You are interested in learning how the structure of the network composed of the nodes and edges forming between them affects the system dynamics.  Unfortunately, you have no clue whether there is an edge between two nodes and, therefore, cannot conclude the configuration of the spatial network.  What should you do to answer the intereting question you have in mind?
 
-This is actually a realistic question - it was a hurdle to jump over with the ecological data that I had to deal with. 
+This is actually a realistic question - it's a hurdle to jump over with the ecological data that I have to deal with. 
 
 
 
