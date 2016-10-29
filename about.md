@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am an ecologist and data scientist always excited about both domains while integrating the two excites me the most!
 
 ### More Information
 
@@ -12,4 +12,4 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact me
 
-[email@domain.com](mailto:hhsiehster@gmail.com)
+[hhsiehster@gmail.com](mailto:email@domain.com)
