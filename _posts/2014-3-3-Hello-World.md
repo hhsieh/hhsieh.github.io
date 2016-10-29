@@ -3,9 +3,9 @@ layout: post
 title: Unlimited networks
 ---
 
-###This is a test.
+Suppose you have 100 nodes; each of them has its own x and y spatial coordinates. You are interested in learning how the networks composed of the nodes and edges forming between them affect the system dynamics.  However, you have no clue whether there is an edge between two nodes.  What should you do to answer the intereting questions you have in mind?
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
