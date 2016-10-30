@@ -7,7 +7,7 @@ Suppose you have 100 nodes; each of them has its own x and y spatial coordinates
 
 ![_config.yml]({{site.baseurl}}/images/hundred_nodes.jpeg)
 
-An intuitive solution is, based on knowledge you have about the system, to decide whether there is an edge between two nodes.  Let say, 
+An intuitive solution is, based on knowledge you have about the system, to decide whether there is an edge between two nodes.  Let say, nodes between which the distance is smaller than _d_ are connected. Otherwise, they are not. 
 
 This is a realistic question - it's a hurdle to jump over given the ecological data I have to deal with. And, in fact, the scale in space-time continuum of my question is much greater than the example above!
 
