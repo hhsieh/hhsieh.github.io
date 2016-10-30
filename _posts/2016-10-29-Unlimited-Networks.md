@@ -9,4 +9,3 @@ Suppose you have 100 nodes; each of them has its own x and y spatial coordinates
 
 This is a realistic question - it's a hurdle to jump over given the ecological data I have to deal with. And, in fact, the scale in space-time continuum of my question is much greater than the example above!
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
