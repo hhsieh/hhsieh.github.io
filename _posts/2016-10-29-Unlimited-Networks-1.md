@@ -16,11 +16,11 @@ In R, we can easily reproduce the nodes data in the above plot.
     y = rnorm(100) * 100
     data = data.frame(x, y)
     
-A distance matrix can help us generate an adjacency matrix in the following steps.
+A distance matrix can help us generate an adjacency matrix in future steps.
 
     dist <- as.matrix(dist(data))
 
-Now, let's set up _d = 20_. Two nodes of which distance smaller than 20 km are connected.
+Let's set up _d = 20_ - two nodes of which distance smaller than 20 km are connected.
 
     DM <- dist[] < 20
     diag(DM) = 0
