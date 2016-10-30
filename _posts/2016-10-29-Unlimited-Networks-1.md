@@ -25,7 +25,7 @@ Now, let's set up _d = 20_. Two nodes of which distance smaller than _d_ is conn
     DM <- dist[] < 20
     diag(DM) = 0
 
-In this way, we create an adjacent matrix of the network. Isn't it easy?
+In this way, we create an adjacency matrix of the network. Isn't it easy?
 
 This is a great first step. To solve our problem, we need more. [See the next post.](http://hhsieh.github.com/Unlimited-Networks-II)
 
