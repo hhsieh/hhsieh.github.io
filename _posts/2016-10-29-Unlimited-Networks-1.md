@@ -16,7 +16,7 @@ In R, we can easily reproduce the nodes data in the above plot.
     y = rnorm(100) * 100
     data = data.frame(x, y)
     
-A distance matrix can help us generate an adjacency matrix in future steps.
+We need a distance matrix that helps us generate an adjacency matrix in future steps.
 
     dist <- as.matrix(dist(data))
 
