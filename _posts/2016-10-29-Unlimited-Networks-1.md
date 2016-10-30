@@ -27,6 +27,19 @@ Now, let's set up _d = 20_. Two nodes of which distance smaller than _d_ is conn
 
 In this way, we create an adjacency matrix of the network. Isn't it easy?
 
+We can write a function in R, which generates networks based on the threshold distance _d_. 
+
+    nt <- function(d) {
+        DM <- dist[] < d
+        diag(DM) = 0
+        return(DM)
+    }
+    
+With `lapply`, we can generate as many networks as we want.
+
+    thresholds <- seq(5, 10, 0.1)
+    lapply(thresholds, nt)
+
 This is a great first step. To solve our problem, we need more. [Continue.](http://hhsieh.github.com/Unlimited-Networks-II)
 
 
