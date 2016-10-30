@@ -9,13 +9,17 @@ First, let's load `igraph`, a graph package in R.
 
     library(igraph)
     
-Now we can make graphs from adjacency matrices within `nt`.
+Now we can make graphs from transforming adjacency matrices within `nt` and find node centralities.
 
     nt <- function(d) {
     DM <- dist[] < d
     diag(DM) = 0
     g <- graph.adjacency(DM)
-    return(DM)
+    btwn <- betweenness(g, directed = FALSE)
+    close <- closeness(g, mode = "out")
+    degree <- degree(g)
+    return(list(betweenness.centralities = btwn, closeness.centralities = close, degree.centralities = degree))
     }
-    
+
+Now you have a basic yet useful function to generate many networks and find node properties in those networks!!
     
