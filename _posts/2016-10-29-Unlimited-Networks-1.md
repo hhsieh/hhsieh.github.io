@@ -19,6 +19,10 @@ In R, we can easily reproduce the nodes data as below.
 A distance matrix can help us generate networks in the following steps.
 
     dist <- as.matrix(dist(data))
+
+```{r, echo = FALSE}
+head(dist)
+```
     
     
 This is a realistic question - it's a hurdle to jump over given the ecological data I have to deal with. And, in fact, the scale in space-time continuum of my question is much greater than the example above!
