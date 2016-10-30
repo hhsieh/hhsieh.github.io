@@ -9,7 +9,7 @@ First, let's load `igraph`, a graph package in R.
 
     library(igraph)
     
-Now we can make graphs from transforming adjacency matrices within `nt` and find node centralities.
+Now we can make graphs from adjacency matrices within `nt` and find node centralities.
 
     nt <- function(d) {
     DM <- dist[] < d
