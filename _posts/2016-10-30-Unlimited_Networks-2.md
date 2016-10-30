@@ -1,3 +1,8 @@
+---
+layout: post
+title: Unlimited networks (II)
+---
+
 We can write a function in R, which generates networks based on the threshold distance _d_. 
 
     nt <- function(d) {
