@@ -7,6 +7,8 @@ Suppose you have 100 nodes; each of them has its own x and y spatial coordinates
 
 ![_config.yml]({{site.baseurl}}/images/hundred_nodes.jpeg)
 
+An intuitive solution is, based on knowledge you have about the system, to decide whether there is an edge between two nodes.  Let say, 
+
 This is a realistic question - it's a hurdle to jump over given the ecological data I have to deal with. And, in fact, the scale in space-time continuum of my question is much greater than the example above!
 
 It is fortunately easy in math, in this circumstance, to generate hypothetical networks.  The power of modern-day computers also makes it easy to instantly generate as many networks as one wishes.
