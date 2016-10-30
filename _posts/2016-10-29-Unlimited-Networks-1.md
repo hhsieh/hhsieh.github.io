@@ -20,7 +20,7 @@ A distance matrix can help us generate networks in the following steps.
 
     dist <- as.matrix(dist(data))
 
-Now, let's set up _d = 20_. Two nodes of which distance smaller than _d_ is connected.
+Now, let's set up _d = 20_. Two nodes of which distance smaller than 20 km are connected.
 
     DM <- dist[] < 20
     diag(DM) = 0
