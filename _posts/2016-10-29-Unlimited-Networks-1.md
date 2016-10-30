@@ -25,7 +25,7 @@ Now, let's set up _d = 20_. Two nodes of which distance smaller than 20 km are c
     DM <- dist[] < 20
     diag(DM) = 0
 
-In this way, we create an adjacency matrix of the network. Isn't it easy?
+In this way, we create an adjacency matrix. Isn't it easy?
 
 We can write a function in R, which generates adjacency matrices based on the threshold distance _d_. 
 
