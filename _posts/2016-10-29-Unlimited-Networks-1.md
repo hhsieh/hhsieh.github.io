@@ -16,7 +16,7 @@ In R, we can easily reproduce the nodes data in the above plot.
     y = rnorm(100) * 100
     data = data.frame(x, y)
     
-A distance matrix can help us generate networks in the following steps.
+A distance matrix can help us generate an adjacency matrix in the following steps.
 
     dist <- as.matrix(dist(data))
 
@@ -27,7 +27,7 @@ Now, let's set up _d = 20_. Two nodes of which distance smaller than 20 km are c
 
 In this way, we create an adjacency matrix of the network. Isn't it easy?
 
-We can write a function in R, which generates networks based on the threshold distance _d_. 
+We can write a function in R, which generates adjacency matrices based on the threshold distance _d_. 
 
     nt <- function(d) {
         DM <- dist[] < d
@@ -35,7 +35,7 @@ We can write a function in R, which generates networks based on the threshold di
         return(DM)
     }
     
-With `lapply`, we can generate as many networks as we want.
+With `lapply`, we can generate as many adjacency matrices as we want.
 
     thresholds <- seq(5, 10, 0.1)
     lapply(thresholds, nt)
