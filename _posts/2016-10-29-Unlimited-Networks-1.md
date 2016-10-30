@@ -20,7 +20,7 @@ A distance matrix can help us generate an adjacency matrix in future steps.
 
     dist <- as.matrix(dist(data))
 
-Let's set up _d = 20_ - two nodes of which distance smaller than 20 km are connected.
+Let's set up _d = 20_.  That is, two nodes of which distance smaller than 20 km are connected.
 
     DM <- dist[] < 20
     diag(DM) = 0
