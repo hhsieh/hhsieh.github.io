@@ -12,7 +12,7 @@ I have a PhD in Ecology/Natural Resources and Environment and a data science cer
 
 I love both academic science and applied industrial science. I also enjoy playing the piano and am an occassional writer. 
 
-In the past, I have been a translator, a research associate in the Industrial Technology Research Institute, Taiwan, and a freelance journalist of environmental issues. I reported the World Social Forum in Karachi, Pakistan, in 2006. I am always excited about new things and broadening my horizons.
+Over the past, I have been a translator, a research associate in the Industrial Technology Research Institute, Taiwan, and a freelance journalist of environmental issues. I reported the World Social Forum in Karachi, Pakistan, in 2006. I am always excited about new things and broadening my horizons.
 
 ### Contact me
 
