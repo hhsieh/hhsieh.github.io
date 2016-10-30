@@ -21,6 +21,6 @@ Now we can make graphs from transforming adjacency matrices within `nt` and find
     return(list(betweenness.centralities = btwn, closeness.centralities = close, degree.centralities = degree))
     }
 
-Now you have a basic yet useful function to generate many networks and find node properties in those networks!!  [Learn mode](https://hhsieh.github.io/Unlimited_Networks-3/)
+Now you have a basic yet useful function to generate many networks and find node properties in those networks!!  [Learn more](https://hhsieh.github.io/Unlimited_Networks-3/)
 
     
