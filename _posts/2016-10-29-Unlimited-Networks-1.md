@@ -40,7 +40,7 @@ With `lapply`, we can generate as many adjacency matrices as we want.
     thresholds <- seq(5, 10, 0.1)
     lapply(thresholds, nt)
 
-This is a great first step. It can serve as the basis of generating more networks and computing network properties. We can go on to explore more. [Continue.](http://hhsieh.github.com/Unlimited-Networks-II)
+This is a great first step. It can be the basis of generating more networks and computing network properties. We can go on to explore more. [Continue.](http://hhsieh.github.com/Unlimited-Networks-II)
 
 
     
