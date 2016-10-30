@@ -3,15 +3,3 @@ layout: post
 title: Unlimited networks (II)
 ---
 
-We can write a function in R, which generates networks based on the threshold distance _d_. 
-
-    nt <- function(d) {
-        DM <- dist[] < d
-        diag(DM) = 0
-        return(DM)
-    }
-    
-With `lapply`, we can generate as many networks as we want.
-
-    thresholds <- seq(5, 10, 0.1)
-    lapply(thresholds, nt)
