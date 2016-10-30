@@ -24,10 +24,5 @@ A distance matrix can help us generate networks in the following steps.
 head(dist)
 ```
     
-    
-This is a realistic question - it's a hurdle to jump over given the ecological data I have to deal with. And, in fact, the scale in space-time continuum of my question is much greater than the example above!
 
-It is fortunately easy in math, in this circumstance, to generate hypothetical networks.  The power of modern-day computers also makes it easy to instantly generate as many networks as one wishes.
-
-The magic is the fundamental matrix of Markov Chain, which works in any circumstance in which network structures were 
 
