@@ -7,7 +7,7 @@ Suppose you have 100 nodes; each of them has its own x and y spatial coordinates
 
 This is a realistic question - it's a hurdle to jump over with the ecological data that I have to deal with. 
 
-![_config.yml]({{site.baseurl}}/images/hundred_nodes.png)
+![_config.yml]({{site.baseurl}}/images/hundred_nodes.jpeg)
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
