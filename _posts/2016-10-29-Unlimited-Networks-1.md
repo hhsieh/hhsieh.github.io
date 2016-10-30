@@ -20,9 +20,18 @@ A distance matrix can help us generate networks in the following steps.
 
     dist <- as.matrix(dist(data))
 
-```{r, echo = FALSE}
-head(dist)
-```
+Now, let's set up _d = 20_. Two nodes of which distance smaller than _d_ is connected.
+
+    DM <- dist[] < 20
+    diag(DM) = 0
+
+In this way, we create an adjacent matrix of the network. Isn't it easy?
+
+
+    
+    
+    
+
     
 
 
