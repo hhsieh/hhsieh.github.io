@@ -7,7 +7,7 @@ Suppose you have 100 nodes; each of them has its own x and y spatial coordinates
 
 ![_config.yml]({{site.baseurl}}/images/hundred_nodes.jpeg)
 
-An intuitive solution is, based on the knowledge you have about the system, deciding whether there is an edge between two nodes.  Let's say, nodes between which the distance is smaller than _d_ kilometers are connected. Otherwise, they are not. 
+An intuitive solution is, based on the knowledge you have about the system, deciding whether there is an edge between two nodes.  Let's say, if the geometric distance between any two nodes is smaller than _d_ kilometers, the two nodes are connected. Otherwise, they are not. 
 
 In R, we can easily reproduce the nodes data as below.
 
