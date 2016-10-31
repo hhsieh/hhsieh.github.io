@@ -14,7 +14,7 @@ There would be some nodes located within distance _d_ to one of the four rectang
 To deal with this issue, we can write another function. I will apply the fundamental matrix of Markov Chain as it works really fast and accurately generates compartments within networks. 
 
 
-    nt <- function(d) {
+    nt_inv <- function(d) {
         DM <- dist[] < d
         diag(DM) = 0
         I <- diag(1, nrow=nrow(dist), ncol=ncol(dist))
