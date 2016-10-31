@@ -85,7 +85,7 @@ We need to load library `Hmisc`.
         }
 
 
-Viola, now you have the nodes that you need for further analyses!!
+Voila, now you have the nodes that you need for further analyses!!
 
 
     
