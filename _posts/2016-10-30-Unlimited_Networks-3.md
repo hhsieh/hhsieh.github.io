@@ -23,4 +23,6 @@ To deal with this issue, we can write another function. I will apply the fundame
         return(inv)
         }
 
-This function gives us a 100 x 100 matrix signaling whether any two nodes are within the same compartment. 
+This function gives us a 100 x 100 matrix signaling whether any two nodes are within the same compartment. For each pair of two nodes _i_ and _j_, `nt_inv[i,j]` will be a non-zero value if there they are in the same compartment of the network. Otherwise, they are in different compartments. 
+
+This serves us very well in determining which nodes to remove and which to retain.
