@@ -25,4 +25,4 @@ To deal with this issue, we can write another function. I will apply **the funda
 
 This function gives us a 100 x 100 matrix signaling whether any two nodes are within the same compartment. For each pair of two nodes _i_ and _j_ in the same compartment, `nt_inv(d)[i,j]` will be a non-zero value. Otherwise, `nt_inv(d)[i,j]` will be zero. In addition, `nt_inv(d)[i,i]` for `i` in 1 to 100 will be always one. 
 
-This serves us very well in determining which nodes to remove and which to retain. [Continue](https://hhsieh.github.com/2016-10-30-Unlimited-Networks-4)
+This serves us very well in determining which nodes to remove and which to retain. [Continue](https://hhsieh.github.com/2016-10-31-Unlimited-Networks-4)
