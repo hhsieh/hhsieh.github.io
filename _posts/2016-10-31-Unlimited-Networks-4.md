@@ -39,7 +39,7 @@ Now the new functions have 5 parameters. However, we will do it step by step. Th
         }
 
 
-within this function, `compartment_size` reports the compartment size of the compartment each node belongs to. `compartment_id` reports the identity of each compartment that each node belongs to.
+Within this function, `compartment_size` reports the compartment size of the compartment each node belongs to. `compartment_id` reports the identity of each compartment that each node belongs to.
 
 **(Unfinished)**
 
