@@ -11,7 +11,7 @@ Let's say the spatial coordinates of the four corners of the plot are, respectiv
 
 There would be some nodes located within distance _d_ to one of the four rectangular plot boundaries.  [Insert visualization](https://hhsieh.github.com/16-10-30-figure-1)  If this is the case, the nodes themselves and the nodes they share the same compartments with should be removed as they potentially are connected to the _unknown nodes_ outside the plot. 
 
-To deal with this issue, we can write another function. I will apply the fundamental matrix of Markov Chain as it works really fast and accurately generates compartments within networks. For now, I save the effort of explaining why this works. A thorough explanation will appear in a R package or an academic paper. 
+To deal with this issue, we can write another function. I will apply **the fundamental matrix of Markov Chain** as it works really fast and accurately generates compartments within networks. For now, I save the effort of explaining why this works. A thorough explanation will appear in a R package or an academic paper. 
 
 
     nt_inv <- function(d) {
