@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am an ecologist and data scientist always excited about both domains, as integrating the two excites me the most! 
+I am an ecologist and data scientist always excited about Ecology and Data Science, as integrating the two excites me the most! 
 
 ### More Information
 
