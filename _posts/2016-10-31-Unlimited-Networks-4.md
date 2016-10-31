@@ -12,7 +12,7 @@ What we need to do is to use the four boundray values of the plot - the minimal 
         ....
     }
 
-Now the new functions have 5 parameters. However, we will do it step by step. The following function does not incorporate values of plot boundaries. However, it tells us which nodes belong to which compartments.
+Now the new functions have 5 parameters. However, we will do it step by step. The following function does not incorporate values of plot boundaries, yet it tells us which nodes belong to which compartments.
 
     rec <- function(d) {
         DM <- dist[] < d
