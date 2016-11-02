@@ -7,16 +7,16 @@ Suppose you have 100 nodes; each of them has its own x and y spatial coordinates
 
 ![_config.yml]({{site.baseurl}}/images/hundred_nodes.jpeg)
 
-An intuitive solution is, based on the knowledge you have about the system, deciding whether there is an edge between two nodes.  Let's say, if the geometric distance between any two nodes is smaller than _d_ (kilometers), the two nodes are connected. Otherwise, they are not. 
+An intuitive solution is, based on the knowledge you have about the system, deciding whether there is an edge between two nodes.  Let's say, if the geometric distance between any two nodes is smaller than _d_ (kilometers), the two nodes are connected. Otherwise, they are not. A matrix accommodating such information is an adjacency matrix. We will make one in this post.
 
-In R, we can easily reproduce the nodes data in the above plot.
+Before that, let's reproduce the nodes data in the above plot.
 
     set.seed(5)
     x = rnorm(100) * 100
     y = rnorm(100) * 100
     data = data.frame(x, y)
     
-We need a distance matrix that helps us generate an adjacency matrix in future steps.
+We also need a distance matrix that helps us generate an adjacency matrix in future steps.
 
     dist <- as.matrix(dist(data))
 
@@ -25,7 +25,11 @@ Let's set up _d = 20_.  That is, two nodes of which distance smaller than 20 km 
     DM <- dist[] < 20
     diag(DM) = 0
 
-In this way, we create an adjacency matrix. Isn't it easy?
+If you type
+
+    DM
+
+in R console, you have an adjacency matrix. Isn't it easy?
 
 We can write a function in R, which generates adjacency matrices based on the threshold distance _d_. 
 
