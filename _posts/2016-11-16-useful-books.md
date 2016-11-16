@@ -3,7 +3,7 @@ layout: post
 title: Useful books for ecological modeling and computing
 ---
 
-Here are some books that I have found interesting and useful as learning ecological staistics and theoretical modeling.
+Here are some books that I have found helpful and interesting as learning ecological staistics and theoretical modeling.
 
 1. Models for Ecological Data by James S. Clark, Princeton University Press (2007)
 2. A Biologist's Guide to Mathematical Modeling in Ecology and Evolution by Sarah P. Otto and Troy Day, Princeton University Press (2007)
@@ -11,5 +11,6 @@ Here are some books that I have found interesting and useful as learning ecologi
 4. The Ecological Detective: Confronting Models with Data by Ray Hilborn and Marc Mangel, Princeton University Press (1997)
 
 A great introduction to biological computing
+
 1. Practical Computing for Biologists by Steven H.D. Haddock and Casey W. Dunn, Sanauer Associaes, Inc. (2011)
 
