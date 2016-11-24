@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Calling a function for multiple times in Python?
+title: Calling a function for multiple times in Python
 ---
 
 Today I am going to blog a little about Python, a language that I have found very helpful in producing clean and productive code.
