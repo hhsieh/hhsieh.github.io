@@ -7,7 +7,7 @@ Today I am going to blog a little about Python, a language that I have found ver
 
 I will start with "calling a function for multiple time" - We will need a function. I call this function `intersect`. 
 
-The code below suggests this - I have the user input integer, `c`.  I repeat the function `intersect` for multiple times until I finish running through the values from `0` all the way to `c-1` (the so called range in Python).
+The code below suggests this - I have the user input integer, `c`.  I repeat the function `intersect` for multiple times until I finish running through the values from `0` all the way to `c-1` (the so called range in Python).  In total, this will be `c` times.
 
     c = int(input())
     
