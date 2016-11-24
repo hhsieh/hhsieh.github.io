@@ -12,7 +12,7 @@ I will start with "calling a function for multiple time" - We will need a functi
     for _ in range(c):
         intersect()
         
-Here I have the user input integer, `c`.  I repeat the function `intersect` for multiple times until I finish running through the values from `0` all the way to `c-1` (the so called range in Python).
+The above code suugests this - I have the user input integer, `c`.  I repeat the function `intersect` for multiple times until I finish running through the values from `0` all the way to `c-1` (the so called range in Python).
 
 And I have the following function which prints "YES" if two strings share at least one substring and print "NO" if they share no substring at all.
 
