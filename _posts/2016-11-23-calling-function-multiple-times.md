@@ -25,7 +25,7 @@ And I have the following function which prints "YES" if two strings share at lea
         else:
             print "NO"
 
-Now, let's type what we have to call the function intersect:
+Now, let's try it out. 
 
     c = int(input())
 
