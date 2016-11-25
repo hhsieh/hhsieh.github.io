@@ -3,7 +3,7 @@ layout: post
 title: Calling a function for multiple times in Python (II)
 ---
 
-Certainly, you can find more than one way to perform a function for multiple times to run a rask in Python (and other languages).  Here I am just going to use the same approach as in [Calling a function for multiple times in Python (I)] (https://hhsieh.github.io/calling-function-multiple-times/).
+Certainly, you can find more than one way to run a function for multiple times to perform a task in Python (and other languages).  Here I am just going to use the same approach as in [Calling a function for multiple times in Python (I)] (https://hhsieh.github.io/calling-function-multiple-times/).
 
 The question goes:
 
