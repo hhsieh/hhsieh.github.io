@@ -14,7 +14,7 @@ The code below suggests this - I have the user input integer, `c`.  I repeat the
     for _ in range(c):
         intersect()
         
-And `intersect` is the function that I would like to repeat.  This is a function that prints "YES" if two strings share at least one substring and print "NO" if they share no substring at all.
+And `intersect` is the function that I would like to repeat.  This is a function that prints "YES" if two strings share at least one substring and prints "NO" if they share no substring at all.
 
     def intersect():
         a = map(str, raw_input())
