@@ -17,7 +17,7 @@ Carefully looking at the series of numbers, you may find it increases in the pat
         else:
             print 3 + (1 + N / 2) * (N / 2)
         
-No, assume we need to find the 48th number. We simply do 
+Now, assume we need to find the 48th number. We simply do 
 
     seris(48)
     
