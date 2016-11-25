@@ -23,7 +23,7 @@ Now, assume we need to find the 48th number. We simply do
     
 It will give us `579`
 
-We can ask for the values of a sequence, for instance, from 60th to 84th numbers.
+We can ask for the values of a sequence, for instance, from the 60th to the 84th numbers.
 
     for N in range(60, 85):
         series(N)
