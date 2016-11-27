@@ -21,7 +21,7 @@ Now, assume we need to find the 48th number. We simply do
 
     seris(48)
     
-It will give us `579`
+It will give us `579`.
 
 We can ask for the values of a sequence, for instance, from the 60th to the 84th numbers.
 
