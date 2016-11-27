@@ -9,7 +9,7 @@ Let's start with a question:
 
 You have a series of numbers: 3, 4, 5, 7, 9, 12, 15... What will be the Nth number (N >= 1)?
 
-Carefully looking at the series of the numbers, you may find it increases in the pattern 1, 1, 2, 2, 3, 3, ...., in each step. we can write a function to reflect the pattern and find the value of the Nth number.
+Carefully looking at the series of the numbers, you may find it increases in the pattern 1, 1, 2, 2, 3, 3, ...., in each step. we can write a function to reflect this pattern and find the value of the Nth number.
 
     def series(N):
         if N % 2 == 0:
