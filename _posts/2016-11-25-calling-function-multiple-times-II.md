@@ -5,7 +5,7 @@ title: Calling a function for multiple times in Python (II)
 
 Certainly, you can find more than one way to run a function for multiple times to perform a task in Python (and other languages).  Here I am just going to use the same approach as in [Calling a function for multiple times in Python (I)] (https://hhsieh.github.io/calling-function-multiple-times/).
 
-Let's start with a question:
+Let's start with a question.
 
 You have a series of numbers: 3, 4, 5, 7, 9, 12, 15... What will be the Nth number (N >= 1)?
 
